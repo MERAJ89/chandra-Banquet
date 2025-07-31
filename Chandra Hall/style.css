@@ -1,0 +1,135 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fefefe;
+}
+
+.navbar {
+  background: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar .nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.banner img {
+  width: 100%;
+filter: drop-shadow(0 0 0.75rem crimson);
+
+}
+
+
+.food-section h2 {
+  color: black;
+  padding-left: 40%;
+  padding-bottom: 30px;
+}
+
+/* .close-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+} */
+
+
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    padding: 10px;
+    z-index: 1000;
+  }
+
+  /* .close-icon {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 60px;
+  } */
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .nav-links li a {
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+.food-section {
+  padding: 20px;
+}
+
+
+.food-section h2 {
+  color: lightcoral;
+
+}
+
+.category {
+  margin-bottom: 30px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.item {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 150px;
+  text-align: center;
+}
+
+.item button {
+  margin-top: 8px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.item.selected {
+  border-color: green;
+  background: #e0ffe0;
+}
