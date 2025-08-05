@@ -83,7 +83,7 @@ html {
 #contactForm {
   max-width: 500px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 37px;
   background: #fafafa;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -100,7 +100,7 @@ html {
 }
 
 #contactForm button {
-  background-color: #333;
+  background-color: green;
   color: white;
   padding: 10px 20px;
   border: none;
