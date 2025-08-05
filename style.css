@@ -56,7 +56,7 @@ html {
 
 
 .food-section h1 {
-  color: black;
+  color: rgba(216, 28, 28, 0.605);
   margin-bottom: 30px;
   padding-left: 40%;
 
@@ -144,13 +144,22 @@ html {
   padding-top: 10px;
 }
 
+.category h3{
+  font-size: 25px;
+  margin-bottom: 25px;
+
+}
+
 .items {
+  background-color: #fafafa;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
   padding: 10px;
   box-sizing: border-box;
+  border-radius: 10px;
+
 
 }
 
@@ -159,7 +168,7 @@ html {
 } */
 
 .item {
-  background-color: #fff;
+  background-color:#f7eaea;
   border: 2px solid #ccc;
   border-radius: 10px;
   padding: 10px;
@@ -210,12 +219,14 @@ html {
 
 h2,
 h3 {
+  font-size: 22px;
   color: #333;
 }
 
 h2 {
   text-align: center;
   margin-bottom: 48px;
+  font-size: 30px;
 }
 
 p {
@@ -235,7 +246,7 @@ p {
 
 .gallery {
   padding: 40px 20px;
-  background-color: #fafafa;
+  background-color: #f7eaea;
 }
 
 .gallery h2 {
@@ -296,7 +307,7 @@ p {
 
 
 .item {
-  padding: 5px;
+  padding: 2px;
 }
 
 .food-section{
@@ -304,7 +315,8 @@ p {
 }
 
 .food-section h1 {
-  padding-left: 39px;
+  font-size: 30px;
+  padding-left: 28px;
 }
 
 .hamburger {
