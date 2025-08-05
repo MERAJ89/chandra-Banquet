@@ -56,9 +56,9 @@ html {
 
 
 .food-section h1 {
-  color: rgba(216, 28, 28, 0.605);
+  color: black;
   margin-bottom: 30px;
-  padding-left: 40%;
+  padding-left: 38%;
 
 }
 
@@ -129,6 +129,7 @@ html {
 .food-section {
   padding: 20px;
   margin-top: 50px;
+  align-items: center;
 }
 
 
@@ -145,7 +146,7 @@ html {
 }
 
 .category h3{
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 25px;
 
 }
@@ -176,6 +177,7 @@ html {
   height: 223px;
   text-align: center;
   cursor: pointer;
+  margin-top: 10px;
   transition: transform 0.2s ease, border-color 0.3s;
 
 }
@@ -354,7 +356,7 @@ p {
   } */
 
 .banner img {
-  height: 500px;
+  height: 590px;
 
 }
 
